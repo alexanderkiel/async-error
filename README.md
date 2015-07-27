@@ -1,5 +1,7 @@
 # Async Error
 
+[![Build Status](https://travis-ci.org/alexanderkiel/async-error.svg?branch=master)](https://travis-ci.org/alexanderkiel/async-error)
+
 Error Handling Utils for [core.async][1].
 
 ## Install
@@ -7,7 +9,7 @@ Error Handling Utils for [core.async][1].
 To install, just add the following to your project dependencies:
 
 ```clojure
-[org.clojars.akiel/async-error "0.1"]
+[org.clojars.akiel/async-error "0.1-SNAPSHOT"]
 ```
 
 ## Usage
