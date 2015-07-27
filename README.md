@@ -2,7 +2,8 @@
 
 [![Build Status](https://travis-ci.org/alexanderkiel/async-error.svg?branch=master)](https://travis-ci.org/alexanderkiel/async-error)
 
-Error Handling Utils for [core.async][1].
+A Clojure(Script) library which provides [core.async][1] error handling 
+utilities.
 
 ## Install
 
@@ -13,6 +14,21 @@ To install, just add the following to your project dependencies:
 ```
 
 ## Usage
+
+### In Clojure
+
+```clojure
+(:require [async-error.core :refer [go-try <?]])
+```
+
+### In ClojureScript
+
+```clojure
+(:require-macros [async-error.core :refer [go-try <?]])
+(:require [async-error.helper])
+```
+
+### In Clojure and ClojureScript
 
 ```clojure
 (defn read-both [ch-a ch-b]
