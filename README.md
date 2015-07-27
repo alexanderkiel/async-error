@@ -16,7 +16,7 @@ To install, just add the following to your project dependencies:
 
 ```clojure
 (defn read-both [ch-a ch-b]
-  (try-go
+  (go-try
     (let [a (<? ch-a)
           b (<? ch-b)]
       [a b])))

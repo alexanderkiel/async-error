@@ -10,15 +10,15 @@
       (put! ch e)
       (is (thrown? Exception (<?? ch))))))
 
-(deftest try-go-test
+(deftest go-try-test
   (testing "Returns error from channel."
     (let [e (ex-info "foo" {})
           ch (chan)]
       (put! ch e)
-      (is (= e (<!! (try-go (<? ch))))))))
+      (is (= e (<!! (go-try (<? ch))))))))
 
 (defn read-both [ch-a ch-b]
-  (try-go
+  (go-try
     (let [a (<? ch-a)
           b (<? ch-b)]
       [a b])))
