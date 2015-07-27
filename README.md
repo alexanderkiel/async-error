@@ -14,7 +14,17 @@ To install, just add the following to your project dependencies:
 
 ## Usage
 
-FIXME
+```clojure
+(defn read-both [ch-a ch-b]
+  (try-go
+    (let [a (<? ch-a)
+          b (<? ch-b)]
+      [a b])))
+```
+
+This function returns a channel conveying either a vector of a and b or one of
+the errors conveyed by ch-a or ch-b. It will never read from ch-b if ch-a 
+returns an error.
 
 ## Related Work
 
