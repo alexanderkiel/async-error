@@ -1,5 +1,6 @@
 (ns async-error.core
-  (:require [async-error.helper :refer [throw-err]]))
+  (:require [clojure.core.async]
+            [async-error.helper :refer [throw-err]]))
 
 ;; ---- Helpers Taken from Prismatic Schema -----------------------------------
 
@@ -23,10 +24,10 @@
      (throw-err (cljs.core.async/<! ~ch))
      (throw-err (clojure.core.async/<! ~ch))))
 
-(defmacro <??
+(defn <??
   "Like <!! but throws errors."
   [ch]
-  `(throw-err (clojure.core.async/<!! ~ch)))
+  (throw-err (clojure.core.async/<!! ch)))
 
 (defmacro go-try
   "Like go but catches the first thrown error and returns it."
