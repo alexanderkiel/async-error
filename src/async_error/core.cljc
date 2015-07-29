@@ -17,7 +17,7 @@
      [then else]
      (if (cljs-env? &env) then else)))
 
-;; ---- Public API ------------------------------------------------------------
+;; ---- Helpers ---------------------------------------------------------------
 
 (defn throw-err [e]
   (when (instance? #?(:clj Throwable :cljs js/Error) e) (throw e))
