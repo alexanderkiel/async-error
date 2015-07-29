@@ -24,8 +24,7 @@ To install, just add the following to your project dependencies:
 ### In ClojureScript
 
 ```clojure
-(:require-macros [async-error.core :refer [go-try <?]])
-(:require [async-error.helper])
+(:require [async-error.core :refer-macros [go-try <?]])
 ```
 
 ### In Clojure and ClojureScript
