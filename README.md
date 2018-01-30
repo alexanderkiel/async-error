@@ -1,6 +1,7 @@
 # Async Error
 
 [![Build Status](https://travis-ci.org/alexanderkiel/async-error.svg?branch=master)](https://travis-ci.org/alexanderkiel/async-error)
+[![Dependencies Status](https://versions.deps.co/alexanderkiel/async-error/status.svg)](https://versions.deps.co/alexanderkiel/async-error)
 
 A Clojure(Script) library which provides [core.async][1] error handling 
 utilities.

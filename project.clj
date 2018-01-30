@@ -7,10 +7,9 @@
   :min-lein-version "2.0.0"
   :pedantic? :abort
 
-  :dependencies [[org.clojure/clojure "1.8.0"]
-                 [org.clojure/core.async "0.3.442"]
-                 [org.clojure/tools.reader "1.0.0-beta4"]]
+  :dependencies [[org.clojure/clojure "1.9.0"]
+                 [org.clojure/core.async "0.4.474"]]
 
   :profiles {:dev
              {:dependencies
-              [[org.clojure/clojurescript "1.9.494"]]}})
+              [[org.clojure/clojurescript "1.9.946"]]}})
