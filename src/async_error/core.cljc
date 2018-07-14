@@ -44,7 +44,7 @@
      "Like go but catches the first thrown error and returns it."
      [& body]
      `(if-cljs
-        (cljs.core.async.macros/go
+        (cljs.core.async/go
           (try
             ~@body
             (catch js/Error e# e#)))
