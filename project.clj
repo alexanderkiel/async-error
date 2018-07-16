@@ -8,7 +8,7 @@
   :pedantic? :abort
 
   :plugins [[lein-cljsbuild "1.1.7"]
-            [lein-doo "0.1.8"]]
+            [lein-doo "0.1.10" :exclusions [org.clojure/clojure]]]
 
   :dependencies [[org.clojure/clojure "1.9.0"]
                  [org.clojure/core.async "0.4.474"]]
