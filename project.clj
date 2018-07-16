@@ -1,4 +1,4 @@
-(defproject org.clojars.akiel/async-error "0.3"
+(defproject org.clojars.akiel/async-error "0.4-SNAPSHOT"
   :description "Error Handling Utils for core.async."
   :url "https://github.com/alexanderkiel/async-error"
   :license {:name "Eclipse Public License"
