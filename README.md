@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/alexanderkiel/async-error.svg?branch=master)](https://travis-ci.org/alexanderkiel/async-error)
 [![Dependencies Status](https://versions.deps.co/alexanderkiel/async-error/status.svg)](https://versions.deps.co/alexanderkiel/async-error)
+[![cljdoc](https://cljdoc.xyz/badge/org.clojars.akiel/async-error)](https://cljdoc.xyz/d/org.clojars.akiel/async-error/CURRENT)
 
 A Clojure(Script) library which provides [core.async][1] error handling 
 utilities.
