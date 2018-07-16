@@ -14,6 +14,8 @@ To install, just add the following to your project dependencies:
 [org.clojars.akiel/async-error "0.2"]
 ```
 
+Needs at least core.async v0.3.465!
+
 ## Usage
 
 ### In Clojure
