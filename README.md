@@ -4,7 +4,7 @@
 [![Dependencies Status](https://versions.deps.co/alexanderkiel/async-error/status.svg)](https://versions.deps.co/alexanderkiel/async-error)
 [![cljdoc](https://cljdoc.xyz/badge/org.clojars.akiel/async-error)](https://cljdoc.xyz/d/org.clojars.akiel/async-error/CURRENT)
 
-A Clojure(Script) library which provides [core.async][1] error handling 
+A Clojure(Script) library which provides [core.async] error handling
 utilities.
 
 ## Install
@@ -47,9 +47,9 @@ returns an error.
 
 ## Related Work
 
-* Blog Post [Asynchronous Error Handling][2] from David Nolen
-* Blog Post [Working with core.async: Exceptions in go blocks][3] from Martin Trojer
-* Issue [ASYNC-61][4]
+* Blog Post [Asynchronous Error Handling] from David Nolen
+* Blog Post [Working with core.async: Exceptions in go blocks] from Martin Trojer
+* Issue [ASYNC-61]
 
 
 ## License
@@ -58,7 +58,7 @@ Copyright © 2015 Alexander Kiel
 
 Distributed under the Eclipse Public License, the same as Clojure.
 
-[1]: <https://github.com/clojure/core.async>
-[2]: <http://swannodette.github.io/2013/08/31/asynchronous-error-handling/>
-[3]: <http://martintrojer.github.io/clojure/2014/03/09/working-with-coreasync-exceptions-in-go-blocks/>
-[4]: <http://dev.clojure.org/jira/browse/ASYNC-61>
+[core.async]: https://github.com/clojure/core.async
+[Asynchronous Error Handling]: http://swannodette.github.io/2013/08/31/asynchronous-error-handling
+[Working with core.async: Exceptions in go blocks]: http://martintrojer.github.io/clojure/2014/03/09/working-with-coreasync-exceptions-in-go-blocks
+[ASYNC-61]: http://dev.clojure.org/jira/browse/ASYNC-61
